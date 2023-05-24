@@ -1,0 +1,1 @@
+sudo ./$blender_version/blender -P './setgpu.py'  -b '{path_to_blend}' -E CYCLES -o '{output_path}' -s 1 -e 120 -j 30 -a
